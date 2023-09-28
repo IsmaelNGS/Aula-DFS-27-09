@@ -1,0 +1,37 @@
+h1{
+    color: red;
+}
+
+@media screen and (max-width: 500px){
+    h1{
+        color: blue;
+    }
+}
+
+/* 3 */
+
+p{  
+    background-color: #789;
+    color: red;
+}
+     /* Quando a tela atingir 800px mudará para a cor determinada abaixo */
+@media screen and (min-width: 800px){
+    p{
+        background-color: red;
+        color: #000;
+    }
+}
+
+
+
+/* 04 - Landscape "orientation: landscape;" */
+
+h3{
+    display: none;
+}
+
+@media screen and (orientation: landscape){
+    h3{
+        display: block;
+    }
+}  
